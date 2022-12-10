@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print all possible single digit numbers in ascending order, comm *a separated
+ * Description: print all possible single digit numbers in ascending order, c
  * starting from 0, followed by a new line.
  * Return: 0
  */
