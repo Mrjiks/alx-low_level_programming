@@ -3,7 +3,8 @@
 
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
+ * Description: Print alphabet in lower case with putchar()
+ 
  * Return: 0
  */
 
