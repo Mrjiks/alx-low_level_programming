@@ -4,10 +4,8 @@
 /**
  * main - main block
  * Description: Print alphabet in lower case with putchar()
- 
  * Return: 0
  */
-
 int main(void)
 {
 	char c = 'a';
@@ -20,6 +18,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
-
