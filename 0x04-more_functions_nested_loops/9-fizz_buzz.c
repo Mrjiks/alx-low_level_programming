@@ -9,28 +9,33 @@
  */
 int main(void)
 {
-  for (int i = 1; i <= 100; i++)
-  {
-    switch (i % 15)
-    {
-      case 0:
-        printf("FizzBuzz\n");
-        break;
-      case 3:
-      case 6:
-      case 9:
-      case 12:
-        printf("Fizz\n");
-        break;
-      case 5:
-      case 10:
-        printf("Buzz\n");
-        break;
-      default:
-        printf("%d\n", i);
-    }
-  }
+	int x = 1;
 
-  return 0;
+	while (x < 101)
+	{
+		if (x % 3 == 0 && x % 5 == 0)
+		{
+			printf("%s", "FizzBuzz");
+		}
+		else if (x % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (x % 5 == 0)
+		{
+			printf("%s", "Buzz");
+		}
+		else
+		{
+			printf("%d", x);
+		}
+
+		if (x != 100)
+		{
+		printf(" ");
+		}
+		x++;
+	}
+	printf("\n");
+	return (0);
 }
-
