@@ -12,7 +12,7 @@ int main(void)
 	long int n = 612852475143;
 	long int pf;
 
-	for (pf = 2; pf < x; py++)
+	for (pf = 2; pf < n; py++)
 	{
 		if (n % pf == 0)
 		{
