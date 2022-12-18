@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	long int n = 612852475143;
-	long int pf;
+	long int x = 612852475143;
+	long int py;
 
-	for (pf = 2; pf < n; py++)
+	for (py = 2; py < x; py++)
 	{
-		if (n % pf == 0)
+		if (x % py == 0)
 		{
-			n = n / pf;
+			x = x / py;
 		}
 	}
-	printf("%ld\n", pf);
+	printf("%ld\n", py);
 	return (0);
 }
